@@ -1,32 +1,35 @@
-﻿Imports System.Reflection
+Imports System.Reflection
 Imports System.Windows
 Imports System.Windows.Controls
 Imports DevExpress.Xpf.Utils.Themes
 
 Namespace DXSample
+
     Public Class CustomControl1
         Inherits Control
 
         Shared Sub New()
-            DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl1), New FrameworkPropertyMetadata(GetType(CustomControl1)))
+            Call DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl1), New FrameworkPropertyMetadata(GetType(CustomControl1)))
         End Sub
 
-        Public Property Text() As String
+        Public Property Text As String
             Get
-                Return DirectCast(GetValue(TextProperty), String)
+                Return CStr(GetValue(TextProperty))
             End Get
+
             Set(ByVal value As String)
                 SetValue(TextProperty, value)
             End Set
         End Property
-        Public Shared ReadOnly TextProperty As DependencyProperty = DependencyProperty.Register("Text", GetType(String), GetType(CustomControl1), New PropertyMetadata(Nothing))
+
+        Public Shared ReadOnly TextProperty As DependencyProperty = DependencyProperty.Register("Text", GetType(String), GetType(CustomControl1), New PropertyMetadata(CType(Nothing, PropertyChangedCallback)))
     End Class
 
     Public Class CustomControl2
         Inherits CustomControl1
 
         Shared Sub New()
-            DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl2), New FrameworkPropertyMetadata(GetType(CustomControl2)))
+            Call DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl2), New FrameworkPropertyMetadata(GetType(CustomControl2)))
         End Sub
     End Class
 
@@ -34,7 +37,7 @@ Namespace DXSample
         Inherits CustomControl1
 
         Shared Sub New()
-            DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl3), New FrameworkPropertyMetadata(GetType(CustomControl3)))
+            Call DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl3), New FrameworkPropertyMetadata(GetType(CustomControl3)))
         End Sub
     End Class
 
@@ -42,19 +45,20 @@ Namespace DXSample
         Inherits CustomControl1
 
         Shared Sub New()
-            DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl4), New FrameworkPropertyMetadata(GetType(CustomControl4)))
+            Call DefaultStyleKeyProperty.OverrideMetadata(GetType(CustomControl4), New FrameworkPropertyMetadata(GetType(CustomControl4)))
         End Sub
     End Class
 
     Public Class ThemeResourcesThemeKeyExtension
         Inherits ThemeKeyExtensionBase(Of ThemeResourcesThemeKeys)
 
-        Public Overrides ReadOnly Property Assembly() As System.Reflection.Assembly
+        Public Overrides ReadOnly Property Assembly As Assembly
             Get
-                Return If(TypeInTargetAssembly IsNot Nothing, TypeInTargetAssembly.Assembly, Me.GetType().Assembly)
+                Return If(TypeInTargetAssembly IsNot Nothing, TypeInTargetAssembly.Assembly, [GetType]().Assembly)
             End Get
         End Property
     End Class
+
     Public Enum ThemeResourcesThemeKeys
         Background
         Foreground
