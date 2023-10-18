@@ -37,10 +37,8 @@ namespace DXSample {
     }
 
     public class ThemeResourcesThemeKeyExtension : ThemeKeyExtensionBase<ThemeResourcesThemeKeys> {
-        public override Assembly Assembly {
-            get {
-                return TypeInTargetAssembly != null ? TypeInTargetAssembly.Assembly : GetType().Assembly;
-            }
+        protected override Assembly GetAssembly() {
+            return TypeInTargetAssembly != null ? TypeInTargetAssembly.Assembly : GetType().Assembly;
         }
     }
     public enum ThemeResourcesThemeKeys {
