@@ -52,11 +52,9 @@ Namespace DXSample
     Public Class ThemeResourcesThemeKeyExtension
         Inherits ThemeKeyExtensionBase(Of ThemeResourcesThemeKeys)
 
-        Public Overrides ReadOnly Property Assembly As Assembly
-            Get
-                Return If(TypeInTargetAssembly IsNot Nothing, TypeInTargetAssembly.Assembly, [GetType]().Assembly)
-            End Get
-        End Property
+        Protected Overrides Function GetAssembly() As Assembly
+            Return If(TypeInTargetAssembly IsNot Nothing, TypeInTargetAssembly.Assembly, [GetType]().Assembly)
+        End Function
     End Class
 
     Public Enum ThemeResourcesThemeKeys
