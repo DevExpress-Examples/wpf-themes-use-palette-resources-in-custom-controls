@@ -9,8 +9,7 @@ namespace DXSample {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
         }
 
-        public string Text
-        {
+        public string Text {
             get { return (string)GetValue(TextProperty); }
             set { SetValue(TextProperty, value); }
         }
