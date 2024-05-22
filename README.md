@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # WPF Lightweight Themes - Use Palette Resources in Custom Controls
 
-DevExpress Lightweight Themes allow you to use their palette colors and brushes as resources in code. This feature allows you to paint your custom controls to DevExpress Theme colors and keep your application style consistent. This example demonstrates how to bind palette resources to a custom control.
+[DevExpress Lightweight Themes](https://docs.devexpress.com/WPF/404442/common-concepts/themes/lightweight-themes) allow you to use their palette colors and brushes as resources in code. This feature allows you to paint your custom controls to DevExpress Theme colors and keep your application style consistent. This example demonstrates how to bind palette resources to a custom control.
 
 Refer to the [previous version of this example](https://github.com/DevExpress-Examples/wpf-themes-use-palette-resources-in-custom-controls/tree/22.2.2%2B) for information on how to use palette resources of regular themes.
 
