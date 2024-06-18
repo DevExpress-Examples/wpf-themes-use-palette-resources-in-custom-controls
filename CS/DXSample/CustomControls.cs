@@ -36,7 +36,7 @@ namespace DXSample {
     }
 
     public class ThemeResourcesThemeKeyExtension : ThemeKeyExtensionBase<ThemeResourcesThemeKeys> {
-        public override Assembly GetAssembly() {
+        protected override Assembly GetAssembly() {
             return TypeInTargetAssembly != null ? TypeInTargetAssembly.Assembly : GetType().Assembly;
         }
     }
