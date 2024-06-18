@@ -9,8 +9,7 @@ namespace DXSample {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
         }
 
-        public string Text
-        {
+        public string Text {
             get { return (string)GetValue(TextProperty); }
             set { SetValue(TextProperty, value); }
         }
@@ -37,10 +36,8 @@ namespace DXSample {
     }
 
     public class ThemeResourcesThemeKeyExtension : ThemeKeyExtensionBase<ThemeResourcesThemeKeys> {
-        public override Assembly Assembly {
-            get {
-                return TypeInTargetAssembly != null ? TypeInTargetAssembly.Assembly : GetType().Assembly;
-            }
+        public override Assembly GetAssembly() {
+            return TypeInTargetAssembly != null ? TypeInTargetAssembly.Assembly : GetType().Assembly;
         }
     }
     public enum ThemeResourcesThemeKeys {
