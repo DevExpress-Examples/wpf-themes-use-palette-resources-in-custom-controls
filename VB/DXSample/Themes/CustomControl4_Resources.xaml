@@ -6,13 +6,14 @@
 
     <Style TargetType="{x:Type local:CustomControl4}">
         <Setter Property="BorderThickness" Value="3" />
-        <Setter Property="BorderBrush" Value="DarkGray" />
+        <Setter Property="BorderBrush" Value="{dxci:ThemeResource ThemeKey={dxt:PaletteBrushThemeKey  ResourceKey=Border}}" />
         <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="{DynamicResource {dxt:PaletteBrushThemeKey  ResourceKey=Control.Background, ThemeName=VS2019Blue}}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:CustomControl4}">
-                    <Border BorderBrush="{dxci:ThemeResource ThemeKey={dxt:PaletteBrushThemeKey  ResourceKey=Border}}" BorderThickness="{TemplateBinding BorderThickness}" Background="{DynamicResource {dxt:PaletteBrushThemeKey  ResourceKey=Control.Background, ThemeName=VS2017Blue}}">
-                        <TextBlock Foreground="{TemplateBinding Foreground}" HorizontalAlignment="Center" Text="{TemplateBinding Text}" VerticalAlignment="Center"/>
+                    <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                        <TextBlock Foreground="{TemplateBinding Foreground}" Text="{TemplateBinding Text}"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
