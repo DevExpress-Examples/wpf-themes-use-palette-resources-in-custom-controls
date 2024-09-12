@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to implement the ThemeMananger theme support in custom controls
 ' 
 ' This is a sample project for the K18542 (http://www.devexpress.com/scid=K18542)
@@ -6,18 +6,18 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E3524
-
 Imports DevExpress.Xpf.Core
 
 Namespace DXSample
+
     ''' <summary>
     ''' Interaction logic for MainWindow.xaml
     ''' </summary>
-    Partial Public Class MainWindow
+    Public Partial Class MainWindow
         Inherits System.Windows.Window
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
 
         Private Sub comboBoxEdit1_EditValueChanged(ByVal sender As Object, ByVal e As DevExpress.Xpf.Editors.EditValueChangedEventArgs)
