@@ -38,28 +38,28 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Drawing.v24.2">
+    <Reference Include="DevExpress.Drawing.v25.1">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Printing.v24.2.Core">
+    <Reference Include="DevExpress.Printing.v25.1.Core">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.v24.2">
+    <Reference Include="DevExpress.Data.v25.1">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v24.2">
+    <Reference Include="DevExpress.Mvvm.v25.1">
       <Private>True</Private>
     </Reference>
-    <Reference Include="DevExpress.Xpf.CodeView.v24.2">
+    <Reference Include="DevExpress.Xpf.CodeView.v25.1">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v24.2">
+    <Reference Include="DevExpress.Data.Desktop.v25.1">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v24.2">
+    <Reference Include="DevExpress.Xpf.Core.v25.1">
       <Private>False</Private>
     </Reference>
-    <Reference Include="DevExpress.Xpf.LWThemes.v24.2" />
+    <Reference Include="DevExpress.Xpf.LWThemes.v25.1" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />

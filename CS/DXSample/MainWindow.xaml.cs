@@ -1,4 +1,5 @@
 ﻿using DevExpress.Xpf.Core;
+using System.Windows.Media;
 
 namespace DXSample {
     public partial class MainWindow : ThemedWindow {
