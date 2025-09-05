@@ -19,7 +19,7 @@ Refer to the [previous version of this example](https://github.com/DevExpress-Ex
 ## Documentation
 
 * [Use Palette Resources](https://docs.devexpress.com/WPF/400340/common-concepts/themes/palettes/use-palette-resources)
-* [Obtain Lightweight Palette Colors](https://docs.devexpress.com/WPF/404442/common-concepts/themes/lightweight-themes?v=24.1#obtain-palette-colors)
+* [Obtain Lightweight Palette Colors](https://docs.devexpress.com/WPF/404442/common-concepts/themes/lightweight-themes#obtain-palette-colors)
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
@@ -27,3 +27,4 @@ Refer to the [previous version of this example](https://github.com/DevExpress-Ex
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
