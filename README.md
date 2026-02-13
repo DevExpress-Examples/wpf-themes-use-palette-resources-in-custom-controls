@@ -8,7 +8,7 @@
 
 DevExpress Themes allow to use their palette colors and brushes as resources in code. This feature allows you to paint your custom controls to the DevExpress Theme colors to keep your application's style consistent. This example demonstrates how to bind palette resources to a custom control.
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-themes-use-palette-resources-in-custom-controls&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-themes-use-palette-resources-in-custom-controls&~~~was_helpful=no)
 
