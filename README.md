@@ -21,7 +21,7 @@ Refer to the [previous version of this example](https://github.com/DevExpress-Ex
 * [Use Palette Resources](https://docs.devexpress.com/WPF/400340/common-concepts/themes/palettes/use-palette-resources)
 * [Obtain Lightweight Palette Colors](https://docs.devexpress.com/WPF/404442/common-concepts/themes/lightweight-themes#obtain-palette-colors)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-themes-use-palette-resources-in-custom-controls&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-themes-use-palette-resources-in-custom-controls&~~~was_helpful=no)
 
