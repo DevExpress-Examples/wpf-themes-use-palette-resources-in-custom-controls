@@ -40,14 +40,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Drawing.v25.1" />
-    <Reference Include="DevExpress.Printing.v25.1.Core" />
-    <Reference Include="DevExpress.Data.v25.1" />
-    <Reference Include="DevExpress.Mvvm.v25.1" />
-    <Reference Include="DevExpress.Xpf.CodeView.v25.1" />
-    <Reference Include="DevExpress.Data.Desktop.v25.1" />
-    <Reference Include="DevExpress.Xpf.Core.v25.1" />
-    <Reference Include="DevExpress.Xpf.LWThemes.v25.1" />
+    <Reference Include="DevExpress.Drawing.v26.1" />
+    <Reference Include="DevExpress.Printing.v26.1.Core" />
+    <Reference Include="DevExpress.Data.v26.1" />
+    <Reference Include="DevExpress.Mvvm.v26.1" />
+    <Reference Include="DevExpress.Xpf.CodeView.v26.1" />
+    <Reference Include="DevExpress.Data.Desktop.v26.1" />
+    <Reference Include="DevExpress.Xpf.Core.v26.1" />
+    <Reference Include="DevExpress.Xpf.LWThemes.v26.1" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
